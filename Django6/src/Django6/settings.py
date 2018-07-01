@@ -52,9 +52,9 @@ AUTHENTICATION_BACKENDS=(
 SECRET_KEY = '_*^13^wecf36wa=1n#1-ipt711bvc-_2e1$04x5=gku24cest1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '.pythonanywhere.com']
 
 
 # Application definition
